@@ -3,11 +3,12 @@
 #include <stdlib.h>
 #include <string>
 using namespace std;
+#include "Objeto.hpp"
 
 int main() {
   setlocale(LC_ALL, "portuguese");
 
-  cout << "━─━─━━─━「₪」Show do Milhão「₪」━─━─━━─━\n\n";
+  cout << "━─━─━━─━「$」Show do Milhão「$」━─━─━━─━\n\n";
   
   string perguntas[12] = {
 
@@ -30,25 +31,26 @@ int main() {
       "Qual foi o primeiro foguete a pousar na lua?\nA)spaceX starship\nB)Ganímedes\nC)Apollo 11\nD)Luna 2\n",
       "Quem foi o idealizador da reforma protestante?\nA)Papa Francisco\nB)Martinho Lutéro\nC)Dom Pedro II\nD)Papa Leão X",
   
-      "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk",
+      "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk"
 
-          
-  
-  
+      ""
+
       };
   string respostas[12] = {
       "C", "C", "D", "B", "D", "D",
-      "B", "C", "D", "C", "B", "C"}; // 16 respostas (em maiúsculo)
+      "B", "C", "D", "C", "B", "C"
+  };
   string respostasmin[12]{
       "c", "c", "d", "b", "d", "d",
-      "b", "c", "d", "c", "b", "c"}; // 16 respostas (em minúsculo)
+      "b", "c", "d", "c", "b", "c"
+  };
   int premios[12] = {
       15000,  30000, 60000, 120000, 15000, 30000, 60000,
-      120000, 15000, 30000, 60000,  120000}; // 16 premios (somando com o que
-                                             // você já tem)
+      120000, 15000, 30000, 60000,  120000
+  };
 
   int contagem = 0, saldo = 0;
-  char resposta[20];
+  char resposta[2];
 
   do {
     cout << contagem + 1 << " - " << perguntas[contagem] << "\n\nDigite a resposta: ";

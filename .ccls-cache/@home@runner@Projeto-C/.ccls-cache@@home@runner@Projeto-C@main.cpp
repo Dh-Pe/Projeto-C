@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string>
 using namespace std;
-#include "Objeto.hpp"
 
 int main() {
   setlocale(LC_ALL, "portuguese");
@@ -32,8 +31,6 @@ int main() {
       "Quem foi o idealizador da reforma protestante?\nA)Papa Francisco\nB)Martinho Lutéro\nC)Dom Pedro II\nD)Papa Leão X",
   
       "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk"
-
-      ""
 
       };
   string respostas[12] = {
