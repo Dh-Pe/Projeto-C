@@ -32,8 +32,9 @@ int main() {
   
       "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk",
 
-    Po
-    vamo terminar essa para 
+          
+   //to a abolição chegando em pilares ainda. devi chegar quase 20:00
+// vish 
       };
   string respostas[12] = {
       "C", "C", "D", "B", "D", "D",
