@@ -7,7 +7,7 @@ using namespace std;
 int main() {
   setlocale(LC_ALL, "portuguese");
 
-  cout << "---------- Show Do Milhão ---------\n\n";
+  cout << "━─━─━━─━「₪」Show do Milhão「₪」━─━─━━─━\n\n";
   
   string perguntas[12] = {
 
@@ -33,7 +33,7 @@ int main() {
       "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk",
 
           
-   //mlhr q uma falta 
+  
   
       };
   string respostas[12] = {
@@ -71,7 +71,7 @@ int main() {
   } while (contagem <= 11);
 
   cout<<"Você acertou todas as perguntas, parabéns!"<<endl;
-  
+
   system("color a"); //cor verde
   system("pause");
   return 0;

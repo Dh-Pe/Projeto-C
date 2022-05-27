@@ -8,7 +8,7 @@ using namespace std;
 int main() {
   setlocale(LC_ALL, "portuguese");
 
-  cout << "---------- Show Do Milhão ---------\n\n";
+  cout << "━─━─━━─━「₪」Show do Milhão「₪ ━─━─━─━n\n";
   
   string perguntas[12] = {
 
