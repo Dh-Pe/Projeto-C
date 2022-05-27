@@ -67,4 +67,4 @@ int main() {
   system("color a"); //cor verde
   system("pause");
   return 0;
-}```
+}
