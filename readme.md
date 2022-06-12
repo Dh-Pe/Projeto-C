@@ -9,13 +9,19 @@ Desenvolvido somente em C++ por alunos da Estácio.
 #include <string>
 using namespace std;
 ```
+
+## Criando a função principal e adicionando uma linguagem ao terminal
+```c++
 int main() {
   setlocale(LC_ALL, "portuguese");
+}
+```
 
-  cout << "━─━─━━─━「₪」Show do Milhão「₪ ━─━─━─━n\n";
-  
+## Estrutura do projeto
+O escopo da função main foi desenvolvido desde o começo com a utilização de arrays, também contando com estruturas de repetição.
+
+```c++
   string perguntas[12] = {
-
       "Qual é a capital do Brasil?\nA)Salvador\nB)São Paulo\nC)Brasília\nD)Rio de Janeiro",
       "Cidades idealizadas, projetadas e depois construídas são chamadas de:\nA)Cidades Naturais\nB)Cidades Históricas\nC)Cidades Planejadas\nD)Cidades Fantasmas",
       "Em que hemisfério se encontra a maior arte do Brasil?\nA)Norte\nB)Nordeste\nC)Leste\nD)Sul",
@@ -29,8 +35,7 @@ int main() {
       "Quem descobriu o Brasil?\nA)Jair Messias Bolsonaro\nB)Luiz Inácio Lula da Silva\nC)Jojo todynho\nD)Pedro Álvares Cabral",
       "Qual foi o primeiro foguete a pousar na lua?\nA)spaceX starship\nB)Ganímedes\nC)Apollo 11\nD)Luna 2\n",
       "Quem foi o idealizador da reforma protestante?\nA)Papa Francisco\nB)Martinho Lutéro\nC)Dom Pedro II\nD)Papa Leão X",
-      "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk",
-      
+      "Quem foi a primeira pessoa a pousar na lua?\nA)Poze do rodo\nB)Yuri Gagarin\nC)Neil Armstrong\nD)Elon Musk"
       };
   string respostas[12] = {
       "C", "C", "D", "B", "D", "D",
@@ -40,8 +45,7 @@ int main() {
       "b", "c", "d", "c", "b", "c"}; // 16 respostas (em minúsculo)
   int premios[12] = {
       15000,  30000, 60000, 120000, 15000, 30000, 60000,
-      120000, 15000, 30000, 60000,  120000}; // 16 premios (somando com o que
-                                             // você já tem)
+      120000, 15000, 30000, 60000,  120000};
 
   int contagem = 0, saldo = 0;
   char resposta[20];
@@ -65,10 +69,12 @@ int main() {
       return 0;
     }
   } while (contagem <= 11);
+```
 
+## Encerrando também com as finalizações de cada parte do projeto, front-end e depois back-end.
+  ```c++
   cout<<"Você acertou todas as perguntas, parabéns!"<<endl;
-  
   system("color a"); //cor verde
   system("pause");
   return 0;
-}
+  ```
