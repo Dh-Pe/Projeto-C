@@ -1,5 +1,5 @@
 # Projeto Show do Milhão
-Desenvolvido somente em C++ por alunos da Estácio.
+Desenvolvido somente em C++ por **alunos da Faculdade Estácio de Sá**.
 
 ## Incluindo Bibliotecas
 ```c++
@@ -18,7 +18,7 @@ int main() {
 ```
 
 ## Estrutura do projeto
-O escopo da função main foi desenvolvido desde o começo com a utilização de arrays, também contando com estruturas de repetição.
+O escopo da função **main** foi desenvolvido desde o começo com a utilização de **arrays**, também contando com estruturas de repetição, como o **do while**.
 
 ```c++
   string perguntas[12] = {
