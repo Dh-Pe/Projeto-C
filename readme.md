@@ -1,10 +1,14 @@
+# Projeto Show do Milhão
+Desenvolvido somente em C++ por alunos da Estácio.
+
+## Incluindo Bibliotecas
 ```c++
 #include <iostream>
 #include <locale.h>
 #include <stdlib.h>
 #include <string>
 using namespace std;
-
+```
 int main() {
   setlocale(LC_ALL, "portuguese");
 
